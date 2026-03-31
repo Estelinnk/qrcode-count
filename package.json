@@ -1,0 +1,14 @@
+{
+  "name": "qr-redirect-logger",
+  "version": "1.0.0",
+  "description": "Compteur de visites QR avec redirection",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "exceljs": "^4.3.0",
+    "express": "^4.19.2"
+  }
+}
