@@ -12,7 +12,7 @@ const __dirname = path.dirname(__filename);
 const app = express();
 const PORT = process.env.PORT || 3000;
 const FILE_PATH = path.join(__dirname, "logs.xlsx");
-const DESTINATION_URL = "https://tonsite.fr"; // 🔴 Remplace ici par ton vrai site
+const DESTINATION_URL = "https://copilot.microsoft.com/m365"; // 🔴 Remplace ici par ton vrai site
 
 app.get("/", async (req, res) => {
   const ip = req.headers["x-forwarded-for"] || req.socket.remoteAddress;
